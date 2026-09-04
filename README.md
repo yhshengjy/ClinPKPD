@@ -26,21 +26,34 @@ Across the seven modules, students can explore topics including:
 
 ---
 
-## Repository Contents
 
-The repository contains seven `.ipynb` notebooks.
+## Interactive Modules
 
-Each notebook is designed as an independent instructional module and combines:
+ClinPKPD consists of seven instructional modules covering fundamental pharmacokinetic concepts, renal function–based dose adjustment, and antimicrobial PK/PD applications. Each module is available in both English and Chinese.
 
-* brief explanations of relevant PK/PD concepts;
-* interactive parameter adjustment;
-* graphical visualization of pharmacokinetic relationships;
-* clinically oriented examples or dosing scenarios;
-* interpretation of changes in PK/PD parameters.
+| Module | Topic                                           | Learning Focus                                                                                                                                                                                                                 | Notebooks                                                                                                                                                                                                                                          |
+| ------ | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | **Basic One-Compartment PK/PD Simulation**      | Explore dose–concentration–effect relationships, compare intravenous and oral administration, and examine the effects of clearance, volume of distribution, bioavailability, and absorption rate on drug exposure and response | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook1_one_compartment_pkpd_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook1_一室模型基础.ipynb)                 |
+| **2**  | **Multiple Dosing and Steady State**            | Understand drug accumulation, steady-state behavior, peak and trough concentrations, and the effects of dose, dosing interval, and elimination half-life during repeated dosing                                                | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook2_multiple_dosing_steady_state_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook2_多剂量给药与稳态浓度.ipynb)     |
+| **3**  | **Renal Function and Dose Adjustment**          | Estimate renal function, examine the effects of renal impairment on clearance, exposure, and half-life, and compare dose reduction with dosing-interval extension strategies                                                   | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook3_renal_function_dose_adjustment_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook3_肾功能变化与剂量调整.ipynb)   |
+| **4**  | **Two-Compartment Model and Drug Distribution** | Distinguish distribution and elimination phases, understand central and peripheral compartments, and explore how volume of distribution, clearance, and intercompartmental clearance influence concentration–time profiles     | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook4_Two_Compartment_Model_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook4_二室模型与药物分布.ipynb)             |
+| **5**  | **Vancomycin PK/PD Simulation**                 | Interpret AUC24/MIC, examine vancomycin exposure under different dosing regimens, and explore the effects of dose, dosing interval, infusion duration, clearance, volume of distribution, and renal function                   | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook5_vancomycin_PKPD_simulation_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook5_万古霉素_PKPD模拟.ipynb)      |
+| **6**  | **β-Lactam PK/PD Simulation**                   | Understand %fT > MIC, compare intermittent, extended, and continuous infusion strategies, and examine how clearance, protein binding, MIC, and dosing regimen affect PK/PD target attainment                                   | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook6_beta_lactam_PKPD_simulation_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook6_β内酰胺类_PKPD模拟.ipynb)    |
+| **7**  | **Aminoglycoside PK/PD Simulation**             | Understand concentration-dependent antibacterial activity, interpret Cmax/MIC, compare extended-interval and divided dosing, and examine the effects of renal function on accumulation and trough concentrations               | [English](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook7_aminoglycoside_PKPD_simulation_english.ipynb) · [中文](https://colab.research.google.com/github/yhshengjy/ClinPKPD/blob/main/Notebook7_氨基糖苷类_PKPD模拟.ipynb) |
 
-The notebooks can be used individually or sequentially as part of a PK/PD teaching session.
+### How to Use
 
----
+The notebooks can be run directly in **Google Colab** without installing Python locally.
+
+1. Select the English or Chinese version of a module from the table above.
+2. Open the notebook in Google Colab.
+3. Run the cells sequentially.
+4. Adjust the interactive parameters using the sliders or dropdown menus.
+5. Observe how parameter changes affect concentration–time profiles and relevant PK/PD outcomes.
+
+Users who wish to modify or save a notebook can create a personal copy in their own Google Drive.
+
+> **Educational use only:** ClinPKPD is designed for teaching and learning. The simulations and example dosing regimens are not intended for individual patient care or clinical prescribing decisions.
 
 
 
