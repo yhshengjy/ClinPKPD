@@ -72,7 +72,7 @@ Basic prior knowledge of pharmacokinetic concepts is recommended.
 
 ## Educational Objectives
 
-ClinPKPD is intended to help learners:
+ClinPKPD is intended to help students:
 
 1. visualize relationships among fundamental pharmacokinetic parameters;
 2. understand how changes in clearance, volume of distribution, and dosing regimens affect drug concentration–time profiles;
@@ -97,16 +97,6 @@ The notebooks may be incorporated into:
 Instructors can select individual modules according to the learning objectives of a course or use all seven modules as a structured workshop.
 
 ---
-
-## Educational and Clinical Disclaimer
-
-ClinPKPD was developed **for educational purposes only**.
-
-The simulations and dosing examples provided in these notebooks are intended to illustrate pharmacokinetic and pharmacodynamic principles. They should **not** be used for individual patient care, clinical decision-making, or therapeutic drug dosing without appropriate clinical evaluation and validated clinical tools.
-
----
-
-
 
 ## Citation
 
